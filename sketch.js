@@ -48,8 +48,8 @@ function keyPressed() {
     y: -550
   }
   var force = {
-    x: 850,
-    y: 850
+    x: 1000,
+    y: 1000
   }
   if(keyCode === UP_ARROW) {
     Body.applyForce(bob1.body, bob1.body.position, move);
