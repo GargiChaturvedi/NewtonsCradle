@@ -47,10 +47,6 @@ function keyPressed() {
     x: -550,
     y: -550
   }
-  var force = {
-    x: 1000,
-    y: 1000
-  }
   if(keyCode === UP_ARROW) {
     Body.applyForce(bob1.body, bob1.body.position, move);
   }
@@ -58,8 +54,4 @@ function keyPressed() {
     Body.applyForce(bob1.body, bob1.body.position, move);
     Body.applyForce(bob2.body, bob2.body.position, move);
   }
-  if(keyCode === LEFT_ARROW) {
-    Body.applyForce(bob1.body, bob1.body.position, move);
-    Body.applyForce(bob5.body, bob5.body.position, force);
-  }
-}
+ }
